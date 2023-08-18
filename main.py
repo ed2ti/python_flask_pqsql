@@ -20,10 +20,10 @@ mydb = None
 
 # Database Params 
 db_params = {
-    "host": "batyr.db.elephantsql.com",
-    "database": "vqltnimz",
-    "user": "vqltnimz",
-    "password": "qRIdxBEohGJY9AZWoVsJ9SZRkdyJssHu"
+    "host": "host",
+    "database": "database",
+    "user": "user",
+    "password": "password"
 }
 
 mydb = psycopg2.connect(**db_params)
